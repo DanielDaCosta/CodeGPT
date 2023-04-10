@@ -1,4 +1,4 @@
-task_id,text,test_list,input,true_label,prediction
+task_id,test_list,true_label,prediction,successful_test_cases,error_list
 11,"['assert remove_Occ(""hello"",""l"") == ""heo""', 'assert remove_Occ(""abcda"",""a"") == ""bcd""', 'assert remove_Occ(""PHP"",""P"") == ""H""']","def remove_Occ(s,ch): 
     for i in range(len(s)): 
         if (s[i] == ch): 
