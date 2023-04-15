@@ -649,7 +649,7 @@ def get_gcd(nums):
     if len(nums) == 1:
         return nums[0]
     return get_gcd(nums[1:] + nums[:-1])
-",0,['Test 34: Recursion problem']
+",0,"[""Test 34: <class 'RecursionError'>: maximum recursion depth exceeded in comparison""]"
 46,"['assert test_distinct([1,5,7,9]) == True', 'assert test_distinct([2,4,5,5,7,9]) == False', 'assert test_distinct([1,2,3]) == True']","def test_distinct(data):
   if len(data) == len(set(data)):
     return True
@@ -2885,7 +2885,7 @@ def distance_lat_long(lat1, long1, lat2, long2):
     :rtype: float
     """"""
     return math.sqrt((lat1-lat2)**2+(long1-long2)**2)
-",0,"[""Test 0 <class 'NameError'>: name 'math' is not defined"", ""Test 1 <class 'NameError'>: name 'math' is not defined"", ""Test 2 <class 'NameError'>: name 'math' is not defined""]"
+",0,"[""Test 0 <class 'AssertionError'>: "", ""Test 1 <class 'AssertionError'>: "", ""Test 2 <class 'AssertionError'>: ""]"
 181,"['assert common_prefix([""tablets"", ""tables"", ""taxi"", ""tamarind""], 4) == \'ta\'', 'assert common_prefix([""apples"", ""ape"", ""april""], 3) == \'ap\'', 'assert common_prefix([""teens"", ""teenager"", ""teenmar""], 3) == \'teen\'']","def common_prefix_util(str1, str2): 
 	result = """"; 
 	n1 = len(str1) 
@@ -3209,7 +3209,7 @@ def highest_Power_of_2(n):
     :rtype: int
     """"""
     return int(math.pow(2, n))
-",0,"[""Test 0 <class 'NameError'>: name 'math' is not defined"", ""Test 1 <class 'NameError'>: name 'math' is not defined"", ""Test 2 <class 'NameError'>: name 'math' is not defined""]"
+",0,"[""Test 0 <class 'AssertionError'>: "", ""Test 1 <class 'AssertionError'>: "", ""Test 2 <class 'AssertionError'>: ""]"
 200,"['assert position_max([12,33,23,10,67,89,45,667,23,12,11,10,54])==[7]', 'assert position_max([1,2,2,2,4,4,4,5,5,5,5])==[7,8,9,10]', 'assert position_max([2,1,5,6,8,3,4,9,10,11,8,12])==[11]']","def position_max(list1):
     max_val = max(list1)
     max_result = [i for i, j in enumerate(list1) if j == max_val]
@@ -6352,7 +6352,7 @@ def even_or_odd(hex_number):
 
 def highest_Power_of_2(n):
     return int(math.pow(2, n))
-",0,"[""Test 0 <class 'NameError'>: name 'math' is not defined"", ""Test 1 <class 'NameError'>: name 'math' is not defined"", ""Test 2 <class 'NameError'>: name 'math' is not defined""]"
+",0,"[""Test 0 <class 'AssertionError'>: "", ""Test 1 <class 'AssertionError'>: "", ""Test 2 <class 'AssertionError'>: ""]"
 389,"['assert find_lucas(9) == 76', 'assert find_lucas(4) == 7', 'assert find_lucas(3) == 4']","def find_lucas(n): 
 	if (n == 0): 
 		return 2
