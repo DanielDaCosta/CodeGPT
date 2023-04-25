@@ -1,4 +1,4 @@
-# Analysis of Different Code generation Models
+# Evaluating Large Language Models on Code Generation
 
 This repository contains the code and results for the performances in Python code generation of three different code generation models – CodeT5, CodeGen, and GPT-3.5. The models were evaluated on the MBPP dataset, and the pass@k metric was used as the primary method of evaluation. 
 
